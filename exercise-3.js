@@ -4,6 +4,8 @@ function makanTerusRekursif(waktu) {
     if (waktu == 0) {
         return waktu;
     }
+
+    //yang dibawah ini looping normal
     /*    while (waktu > 0) {
             waktu -= 15;
             count++;
@@ -11,6 +13,8 @@ function makanTerusRekursif(waktu) {
                 return count;
             }
         } */
+
+    //yang dibawah ini looping rekursif
     if (waktu <= 0) {
         return count;
     } else {
