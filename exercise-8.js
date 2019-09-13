@@ -1,6 +1,6 @@
 function hapusSimbol(str) {
     // you can only write your code here!
-    var match = str.match(/[a-z]|[0-9]+/gi);
+    var match = str.match(/[a-z]|[0-9]/g);
     var join = match.join().replace(/,/g, '');
     return join;
 }
