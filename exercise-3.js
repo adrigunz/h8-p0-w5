@@ -1,6 +1,7 @@
 function makanTerusRekursif(waktu) {
     // you can only write your code here!
-    var count = 0;
+    //var count = 0;
+    //dibawah ini versi tanpa count
     if (waktu == 0) {
         return waktu;
     }
@@ -16,10 +17,14 @@ function makanTerusRekursif(waktu) {
 
     //yang dibawah ini looping rekursif
     if (waktu <= 0) {
-        return count;
+        //return count;
+        //dibawah ini versi tanpa count
+        return 0;
     } else {
-        count++;
-        return count + makanTerusRekursif(waktu - 15);
+        //count++;
+        //return count + makanTerusRekursif(waktu - 15);
+        //dibawah ini versi tanpa count
+        return 1 + makanTerusRekursif(waktu - 15);
     }
 }
 
